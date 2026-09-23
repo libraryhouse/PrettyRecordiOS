@@ -13,7 +13,7 @@ https://github.com/libraryhouse/PrettyRecordiOS.git
 Or in `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/libraryhouse/PrettyRecordiOS.git", from: "1.0.2")
+.package(url: "https://github.com/libraryhouse/PrettyRecordiOS.git", from: "1.0.3")
 ```
 
 Then (the module name is `PrettyRecordKit`, even though the repo is `PrettyRecordiOS`):
@@ -76,5 +76,24 @@ print(task.prettyJSON(.coloredAuto))   // colors only when stdout is a real term
 Keys, strings, numbers, booleans and `null` each get their own color.
 
 > ⚠️ ANSI colors render in a real terminal (Terminal.app, iTerm, piped device logs) — **not** in the Xcode debug console, which prints the raw escape codes. Use `.coloredAuto` to stay safe: it emits colors only when the output is an interactive terminal, so it never garbles the Xcode console.
+
+### Distinctive output in the Xcode console (emoji markers)
+
+Since ANSI colors don't work in Xcode, use `.marked` — it tags each value with an emoji for its type, and **renders in the Xcode console**:
+
+```swift
+print(task.prettyJSON(.marked))
+```
+
+```
+{
+  "active": ✅ true,
+  "deletedAt": ⚪️ null,
+  "empId": 🔢 282315,
+  "name": 🔤 "Daily shift"
+}
+```
+
+🔤 string · 🔢 number · ✅/❌ bool · ⚪️ null. This is a readable debug view (not valid JSON for parsing).
 
 > Note the import is **`PrettyRecordKit`**, while the API namespace is **`PrettyRecord`** (e.g. `PrettyRecord.Options`). This split is required so the binary framework's module name doesn't collide with the type name.

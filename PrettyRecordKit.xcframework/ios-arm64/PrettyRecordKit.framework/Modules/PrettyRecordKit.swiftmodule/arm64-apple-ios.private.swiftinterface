@@ -19,11 +19,13 @@ public enum PrettyRecord {
     public var dateEncoding: PrettyRecordKit.PrettyRecord.DateEncoding
     public var dataEncoding: PrettyRecordKit.PrettyRecord.DataEncoding
     public var colorization: PrettyRecordKit.PrettyRecord.Colorization
-    public init(relationshipDepth: Swift.Int = 0, sortedKeys: Swift.Bool = true, prettyPrinted: Swift.Bool = true, includeEntityName: Swift.Bool = true, dateEncoding: PrettyRecordKit.PrettyRecord.DateEncoding = .iso8601, dataEncoding: PrettyRecordKit.PrettyRecord.DataEncoding = .byteCount, colorization: PrettyRecordKit.PrettyRecord.Colorization = .never)
+    public var useMarkers: Swift.Bool
+    public init(relationshipDepth: Swift.Int = 0, sortedKeys: Swift.Bool = true, prettyPrinted: Swift.Bool = true, includeEntityName: Swift.Bool = true, dateEncoding: PrettyRecordKit.PrettyRecord.DateEncoding = .iso8601, dataEncoding: PrettyRecordKit.PrettyRecord.DataEncoding = .byteCount, colorization: PrettyRecordKit.PrettyRecord.Colorization = .never, useMarkers: Swift.Bool = false)
     public static let `default`: PrettyRecordKit.PrettyRecord.Options
     public static let compact: PrettyRecordKit.PrettyRecord.Options
     public static let colored: PrettyRecordKit.PrettyRecord.Options
     public static let coloredAuto: PrettyRecordKit.PrettyRecord.Options
+    public static let marked: PrettyRecordKit.PrettyRecord.Options
     public static func expanded(_ depth: Swift.Int) -> PrettyRecordKit.PrettyRecord.Options
   }
   public enum DateEncoding {
@@ -117,7 +119,7 @@ public struct FoundationScalarConverter : PrettyRecordKit.RecordConverting {
   #endif
 }
 public struct DefaultJSONRenderer : PrettyRecordKit.JSONRendering {
-  public init(theme: PrettyRecordKit.ANSIJSONRenderer.Theme = .init())
+  public init(theme: PrettyRecordKit.ANSIJSONRenderer.Theme = .init(), markers: PrettyRecordKit.MarkedJSONRenderer.Markers = .init())
   public func render(_ value: PrettyRecordKit.JSONValue, options: PrettyRecordKit.PrettyRecord.Options) -> Swift.String
 }
 public struct ANSIJSONRenderer : PrettyRecordKit.JSONRendering {
@@ -133,6 +135,19 @@ public struct ANSIJSONRenderer : PrettyRecordKit.JSONRendering {
   }
   public var theme: PrettyRecordKit.ANSIJSONRenderer.Theme
   public init(theme: PrettyRecordKit.ANSIJSONRenderer.Theme = Theme())
+  public func render(_ value: PrettyRecordKit.JSONValue, options: PrettyRecordKit.PrettyRecord.Options) -> Swift.String
+}
+public struct MarkedJSONRenderer : PrettyRecordKit.JSONRendering {
+  public struct Markers {
+    public var string: Swift.String
+    public var number: Swift.String
+    public var boolTrue: Swift.String
+    public var boolFalse: Swift.String
+    public var null: Swift.String
+    public init(string: Swift.String = "🔤", number: Swift.String = "🔢", boolTrue: Swift.String = "✅", boolFalse: Swift.String = "❌", null: Swift.String = "⚪️")
+  }
+  public var markers: PrettyRecordKit.MarkedJSONRenderer.Markers
+  public init(markers: PrettyRecordKit.MarkedJSONRenderer.Markers = Markers())
   public func render(_ value: PrettyRecordKit.JSONValue, options: PrettyRecordKit.PrettyRecord.Options) -> Swift.String
 }
 public struct FoundationJSONRenderer : PrettyRecordKit.JSONRendering {

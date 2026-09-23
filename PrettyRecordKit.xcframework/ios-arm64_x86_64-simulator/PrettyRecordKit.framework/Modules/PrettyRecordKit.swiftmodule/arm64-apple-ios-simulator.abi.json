@@ -675,9 +675,95 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "useMarkers",
+                "printedName": "useMarkers",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV10useMarkersSbvp",
+                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV10useMarkersSbvp",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV10useMarkersSbvg",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV10useMarkersSbvg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV10useMarkersSbvs",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV10useMarkersSbvs",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV10useMarkersSbvM",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV10useMarkersSbvM",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(relationshipDepth:sortedKeys:prettyPrinted:includeEntityName:dateEncoding:dataEncoding:colorization:)",
+                "printedName": "init(relationshipDepth:sortedKeys:prettyPrinted:includeEntityName:dateEncoding:dataEncoding:colorization:useMarkers:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -733,11 +819,18 @@
                     "printedName": "PrettyRecordKit.PrettyRecord.Colorization",
                     "hasDefaultArg": true,
                     "usr": "s:15PrettyRecordKit0aB0O12ColorizationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:15PrettyRecordKit0aB0O7OptionsV17relationshipDepth10sortedKeys13prettyPrinted17includeEntityName12dateEncoding04dataO012colorizationAESi_S3bAC04DateO0OAC04DataO0OAC12ColorizationOtcfc",
-                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV17relationshipDepth10sortedKeys13prettyPrinted17includeEntityName12dateEncoding04dataO012colorizationAESi_S3bAC04DateO0OAC04DataO0OAC12ColorizationOtcfc",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV17relationshipDepth10sortedKeys13prettyPrinted17includeEntityName12dateEncoding04dataO012colorization10useMarkersAESi_S3bAC04DateO0OAC04DataO0OAC12ColorizationOSbtcfc",
+                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV17relationshipDepth10sortedKeys13prettyPrinted17includeEntityName12dateEncoding04dataO012colorization10useMarkersAESi_S3bAC04DateO0OAC04DataO0OAC12ColorizationOSbtcfc",
                 "moduleName": "PrettyRecordKit",
                 "declAttributes": [
                   "AccessControl"
@@ -929,6 +1022,54 @@
                     "declKind": "Accessor",
                     "usr": "s:15PrettyRecordKit0aB0O7OptionsV11coloredAutoAEvgZ",
                     "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV11coloredAutoAEvgZ",
+                    "moduleName": "PrettyRecordKit",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "marked",
+                "printedName": "marked",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV6markedAEvpZ",
+                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV6markedAEvpZ",
+                "moduleName": "PrettyRecordKit",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                        "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV6markedAEvgZ",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV6markedAEvgZ",
                     "moduleName": "PrettyRecordKit",
                     "static": true,
                     "implicit": true,
@@ -2688,7 +2829,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(theme:)",
+            "printedName": "init(theme:markers:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2702,11 +2843,18 @@
                 "printedName": "PrettyRecordKit.ANSIJSONRenderer.Theme",
                 "hasDefaultArg": true,
                 "usr": "s:15PrettyRecordKit16ANSIJSONRendererV5ThemeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Markers",
+                "printedName": "PrettyRecordKit.MarkedJSONRenderer.Markers",
+                "hasDefaultArg": true,
+                "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15PrettyRecordKit19DefaultJSONRendererV5themeAcA16ANSIJSONRendererV5ThemeV_tcfc",
-            "mangledName": "$s15PrettyRecordKit19DefaultJSONRendererV5themeAcA16ANSIJSONRendererV5ThemeV_tcfc",
+            "usr": "s:15PrettyRecordKit19DefaultJSONRendererV5theme7markersAcA16ANSIJSONRendererV5ThemeV_AA06MarkedE0V7MarkersVtcfc",
+            "mangledName": "$s15PrettyRecordKit19DefaultJSONRendererV5theme7markersAcA16ANSIJSONRendererV5ThemeV_AA06MarkedE0V7MarkersVtcfc",
             "moduleName": "PrettyRecordKit",
             "declAttributes": [
               "AccessControl"
@@ -3639,6 +3787,711 @@
         "declKind": "Struct",
         "usr": "s:15PrettyRecordKit16ANSIJSONRendererV",
         "mangledName": "$s15PrettyRecordKit16ANSIJSONRendererV",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "JSONRendering",
+            "printedName": "JSONRendering",
+            "usr": "s:15PrettyRecordKit13JSONRenderingP",
+            "mangledName": "$s15PrettyRecordKit13JSONRenderingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MarkedJSONRenderer",
+        "printedName": "MarkedJSONRenderer",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Markers",
+            "printedName": "Markers",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "string",
+                "printedName": "string",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV6stringSSvp",
+                "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV6stringSSvp",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV6stringSSvg",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV6stringSSvg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV6stringSSvs",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV6stringSSvs",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV6stringSSvM",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV6stringSSvM",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "number",
+                "printedName": "number",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV6numberSSvp",
+                "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV6numberSSvp",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV6numberSSvg",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV6numberSSvg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV6numberSSvs",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV6numberSSvs",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV6numberSSvM",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV6numberSSvM",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "boolTrue",
+                "printedName": "boolTrue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV8boolTrueSSvp",
+                "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV8boolTrueSSvp",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV8boolTrueSSvg",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV8boolTrueSSvg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV8boolTrueSSvs",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV8boolTrueSSvs",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV8boolTrueSSvM",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV8boolTrueSSvM",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "boolFalse",
+                "printedName": "boolFalse",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV9boolFalseSSvp",
+                "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV9boolFalseSSvp",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV9boolFalseSSvg",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV9boolFalseSSvg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV9boolFalseSSvs",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV9boolFalseSSvs",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV9boolFalseSSvM",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV9boolFalseSSvM",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "null",
+                "printedName": "null",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV4nullSSvp",
+                "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV4nullSSvp",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV4nullSSvg",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV4nullSSvg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV4nullSSvs",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV4nullSSvs",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV4nullSSvM",
+                    "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV4nullSSvM",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(string:number:boolTrue:boolFalse:null:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Markers",
+                    "printedName": "PrettyRecordKit.MarkedJSONRenderer.Markers",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV6string6number8boolTrue0I5False4nullAESS_S4Stcfc",
+                "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV6string6number8boolTrue0I5False4nullAESS_S4Stcfc",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV",
+            "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "markers",
+            "printedName": "markers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Markers",
+                "printedName": "PrettyRecordKit.MarkedJSONRenderer.Markers",
+                "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7markersAC7MarkersVvp",
+            "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7markersAC7MarkersVvp",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Markers",
+                    "printedName": "PrettyRecordKit.MarkedJSONRenderer.Markers",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7markersAC7MarkersVvg",
+                "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7markersAC7MarkersVvg",
+                "moduleName": "PrettyRecordKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Markers",
+                    "printedName": "PrettyRecordKit.MarkedJSONRenderer.Markers",
+                    "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7markersAC7MarkersVvs",
+                "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7markersAC7MarkersVvs",
+                "moduleName": "PrettyRecordKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7markersAC7MarkersVvM",
+                "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7markersAC7MarkersVvM",
+                "moduleName": "PrettyRecordKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(markers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MarkedJSONRenderer",
+                "printedName": "PrettyRecordKit.MarkedJSONRenderer",
+                "usr": "s:15PrettyRecordKit18MarkedJSONRendererV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Markers",
+                "printedName": "PrettyRecordKit.MarkedJSONRenderer.Markers",
+                "hasDefaultArg": true,
+                "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7MarkersV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15PrettyRecordKit18MarkedJSONRendererV7markersA2C7MarkersV_tcfc",
+            "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV7markersA2C7MarkersV_tcfc",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(_:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSONValue",
+                "printedName": "PrettyRecordKit.JSONValue",
+                "usr": "s:15PrettyRecordKit9JSONValueO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit18MarkedJSONRendererV6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtF",
+            "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtF",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15PrettyRecordKit18MarkedJSONRendererV",
+        "mangledName": "$s15PrettyRecordKit18MarkedJSONRendererV",
         "moduleName": "PrettyRecordKit",
         "declAttributes": [
           "AccessControl"
@@ -5570,37 +6423,51 @@
     {
       "filePath": "Sources\/PrettyRecord\/API\/PrettyRecord.swift",
       "kind": "IntegerLiteral",
-      "offset": 1744,
+      "offset": 2069,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "Sources\/PrettyRecord\/API\/PrettyRecord.swift",
       "kind": "BooleanLiteral",
-      "offset": 1778,
+      "offset": 2103,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "Sources\/PrettyRecord\/API\/PrettyRecord.swift",
       "kind": "BooleanLiteral",
-      "offset": 1818,
+      "offset": 2143,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "Sources\/PrettyRecord\/API\/PrettyRecord.swift",
       "kind": "BooleanLiteral",
-      "offset": 1862,
+      "offset": 2187,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "Sources\/PrettyRecord\/API\/PrettyRecord.swift",
       "kind": "BooleanLiteral",
-      "offset": 2631,
+      "offset": 2377,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/API\/PrettyRecord.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3035,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/API\/PrettyRecord.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3605,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "Sources\/PrettyRecord\/Infrastructure\/Converters\/ReflectionConverter.swift",
@@ -5664,6 +6531,41 @@
       "offset": 1186,
       "length": 13,
       "value": "\"\u001B[0m\""
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/Infrastructure\/Rendering\/MarkedJSONRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 719,
+      "length": 6,
+      "value": "\"🔤\""
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/Infrastructure\/Rendering\/MarkedJSONRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 6,
+      "value": "\"🔢\""
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/Infrastructure\/Rendering\/MarkedJSONRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 795,
+      "length": 5,
+      "value": "\"✅\""
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/Infrastructure\/Rendering\/MarkedJSONRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 5,
+      "value": "\"❌\""
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/Infrastructure\/Rendering\/MarkedJSONRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 868,
+      "length": 8,
+      "value": "\"⚪️\""
     },
     {
       "filePath": "Sources\/PrettyRecord\/Domain\/ConversionContext.swift",
