@@ -6,7 +6,7 @@ import PackageDescription
 // public API to call, but not the implementation.
 //
 // Usage in a consumer app:
-//   .package(url: "https://github.com/libraryhouse/PrettyRecordiOS.git", from: "1.0.1")
+//   .package(url: "https://github.com/libraryhouse/PrettyRecordiOS.git", from: "1.0.2")
 //   import PrettyRecordKit   // module name stays PrettyRecordKit; repo name is PrettyRecordiOS
 let package = Package(
     name: "PrettyRecordKit",
