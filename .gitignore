@@ -1,0 +1,5 @@
+.DS_Store
+.build/
+.swiftpm/
+Package.resolved
+# NOTE: PrettyRecordKit.xcframework IS committed on purpose — it's the shipped binary.
