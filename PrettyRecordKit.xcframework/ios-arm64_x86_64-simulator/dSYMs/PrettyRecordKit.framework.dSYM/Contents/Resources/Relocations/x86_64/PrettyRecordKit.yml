@@ -22,12 +22,12 @@ relocations:
   - { offset: 0x4E3A1, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x600, symBinAddr: 0x1A10, symSize: 0x30 }
   - { offset: 0x4E3B5, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgWOe', symObjAddr: 0x630, symBinAddr: 0x1A40, symSize: 0x20 }
   - { offset: 0x4E3C9, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x650, symBinAddr: 0x1A60, symSize: 0x40 }
-  - { offset: 0x4E575, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O6sharedAA0aB9FormatterCvpZ', symObjAddr: 0x1300, symBinAddr: 0x16868, symSize: 0x0 }
-  - { offset: 0x4E60E, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O7OptionsV7defaultAEvpZ', symObjAddr: 0x1308, symBinAddr: 0x16870, symSize: 0x0 }
-  - { offset: 0x4EB48, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O7OptionsV7compactAEvpZ', symObjAddr: 0x1318, symBinAddr: 0x16880, symSize: 0x0 }
-  - { offset: 0x4EB62, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O7OptionsV7coloredAEvpZ', symObjAddr: 0x1328, symBinAddr: 0x16890, symSize: 0x0 }
-  - { offset: 0x4EB7C, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O7OptionsV11coloredAutoAEvpZ', symObjAddr: 0x1338, symBinAddr: 0x168A0, symSize: 0x0 }
-  - { offset: 0x4EB96, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O7OptionsV6markedAEvpZ', symObjAddr: 0x1348, symBinAddr: 0x168B0, symSize: 0x0 }
+  - { offset: 0x4E575, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O6sharedAA0aB9FormatterCvpZ', symObjAddr: 0x1300, symBinAddr: 0x16890, symSize: 0x0 }
+  - { offset: 0x4E60E, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O7OptionsV7defaultAEvpZ', symObjAddr: 0x1308, symBinAddr: 0x16898, symSize: 0x0 }
+  - { offset: 0x4EB48, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O7OptionsV7compactAEvpZ', symObjAddr: 0x1318, symBinAddr: 0x168A8, symSize: 0x0 }
+  - { offset: 0x4EB62, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O7OptionsV7coloredAEvpZ', symObjAddr: 0x1328, symBinAddr: 0x168B8, symSize: 0x0 }
+  - { offset: 0x4EB7C, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O7OptionsV11coloredAutoAEvpZ', symObjAddr: 0x1338, symBinAddr: 0x168C8, symSize: 0x0 }
+  - { offset: 0x4EB96, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O7OptionsV6markedAEvpZ', symObjAddr: 0x1348, symBinAddr: 0x168D8, symSize: 0x0 }
   - { offset: 0x4EBCB, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O6shared_WZ', symObjAddr: 0x50, symBinAddr: 0x1AF0, symSize: 0x300 }
   - { offset: 0x4EC75, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O12DateEncodingOSHAASQWb', symObjAddr: 0xA00, symBinAddr: 0x23B0, symSize: 0x10 }
   - { offset: 0x4EC89, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O12DateEncodingOAESQAAWl', symObjAddr: 0xA10, symBinAddr: 0x23C0, symSize: 0x30 }
@@ -178,8 +178,8 @@ relocations:
   - { offset: 0x55062, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19ReflectionConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF', symObjAddr: 0x50, symBinAddr: 0x8D50, symSize: 0x800 }
   - { offset: 0x5532A, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19ReflectionConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtFAGSSSg5label_yp5valuet_tXEfU_', symObjAddr: 0x850, symBinAddr: 0x9550, symSize: 0x80 }
   - { offset: 0x55385, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19ReflectionConverterVAA0B10ConvertingA2aDP7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtFTW', symObjAddr: 0x970, symBinAddr: 0x9670, symSize: 0x10 }
-  - { offset: 0x5548E, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB10FormattersO7iso8601So22NSISO8601DateFormatterCvpZ', symObjAddr: 0x3830, symBinAddr: 0x17278, symSize: 0x0 }
-  - { offset: 0x554A8, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB10FormattersO9byteCountSo17NSNumberFormatterCvpZ', symObjAddr: 0x3838, symBinAddr: 0x17280, symSize: 0x0 }
+  - { offset: 0x5548E, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB10FormattersO7iso8601So22NSISO8601DateFormatterCvpZ', symObjAddr: 0x3830, symBinAddr: 0x172A8, symSize: 0x0 }
+  - { offset: 0x554A8, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB10FormattersO9byteCountSo17NSNumberFormatterCvpZ', symObjAddr: 0x3838, symBinAddr: 0x172B0, symSize: 0x0 }
   - { offset: 0x554C7, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O12DateEncodingO9jsonValue3forAA9JSONValueO10Foundation0D0V_tF', symObjAddr: 0x0, symBinAddr: 0x97A0, symSize: 0x150 }
   - { offset: 0x5554E, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DateVACs23CustomStringConvertibleAAWl', symObjAddr: 0x150, symBinAddr: 0x98F0, symSize: 0x40 }
   - { offset: 0x55562, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O12DateEncodingO15encoderStrategy10Foundation11JSONEncoderC0deG0OvgyAG0D0V_s7Encoder_ptYbKcfU_', symObjAddr: 0x240, symBinAddr: 0x99E0, symSize: 0x110 }
@@ -223,50 +223,51 @@ relocations:
   - { offset: 0x570A9, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit16ANSIJSONRendererV7escaped33_E8868DF61F796154571E73ED73DAB88DLLyS2SF', symObjAddr: 0x1C70, symBinAddr: 0xBA60, symSize: 0x2F0 }
   - { offset: 0x57220, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit16ANSIJSONRendererV5punct33_E8868DF61F796154571E73ED73DAB88DLLyS2SF', symObjAddr: 0x1F60, symBinAddr: 0xBD50, symSize: 0xC0 }
   - { offset: 0x573E5, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererV5theme7markersAcA16ANSIJSONRendererV5ThemeV_AA06MarkedE0V7MarkersVtcfC', symObjAddr: 0x0, symBinAddr: 0xC350, symSize: 0x70 }
-  - { offset: 0x574B2, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVwxx', symObjAddr: 0x370, symBinAddr: 0xC690, symSize: 0x90 }
-  - { offset: 0x574C6, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVwcp', symObjAddr: 0x400, symBinAddr: 0xC720, symSize: 0x1A0 }
-  - { offset: 0x574DA, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVwca', symObjAddr: 0x5A0, symBinAddr: 0xC8C0, symSize: 0x1F0 }
-  - { offset: 0x574EE, size: 0x8, addend: 0x0, symName: ___swift_memcpy192_8, symObjAddr: 0x790, symBinAddr: 0xCAB0, symSize: 0x10 }
-  - { offset: 0x57502, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVwta', symObjAddr: 0x7A0, symBinAddr: 0xCAC0, symSize: 0x180 }
-  - { offset: 0x57516, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVwet', symObjAddr: 0x920, symBinAddr: 0xCC40, symSize: 0x40 }
-  - { offset: 0x5752A, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVwst', symObjAddr: 0x960, symBinAddr: 0xCC80, symSize: 0x80 }
-  - { offset: 0x5753E, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVMa', symObjAddr: 0x9E0, symBinAddr: 0xCD00, symSize: 0x10 }
-  - { offset: 0x5755A, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererV5theme7markersAcA16ANSIJSONRendererV5ThemeV_AA06MarkedE0V7MarkersVtcfC', symObjAddr: 0x0, symBinAddr: 0xC350, symSize: 0x70 }
-  - { offset: 0x57627, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererV6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtF', symObjAddr: 0x70, symBinAddr: 0xC3C0, symSize: 0x2C0 }
-  - { offset: 0x57730, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVAA13JSONRenderingA2aDP6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtFTW', symObjAddr: 0x330, symBinAddr: 0xC680, symSize: 0x10 }
-  - { offset: 0x578A3, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit22FoundationJSONRendererVMa', symObjAddr: 0x4C0, symBinAddr: 0xCFE0, symSize: 0x10 }
-  - { offset: 0x57958, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit22FoundationJSONRendererV6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtF', symObjAddr: 0x10, symBinAddr: 0xCD10, symSize: 0x2C0 }
-  - { offset: 0x57AE6, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit22FoundationJSONRendererVAA13JSONRenderingA2aDP6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtFTW', symObjAddr: 0x2D0, symBinAddr: 0xCFD0, symSize: 0x10 }
-  - { offset: 0x57C27, size: 0x8, addend: 0x0, symName: '_$sSTsSL7ElementRpzrlE6sortedSayABGyFSD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tg5', symObjAddr: 0x0, symBinAddr: 0xCFF0, symSize: 0xD0 }
-  - { offset: 0x5836C, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV7MarkersVWOc', symObjAddr: 0x12D0, symBinAddr: 0xDFE0, symSize: 0x30 }
-  - { offset: 0x58380, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererVWOh', symObjAddr: 0x1300, symBinAddr: 0xE010, symSize: 0x20 }
-  - { offset: 0x58394, size: 0x8, addend: 0x0, symName: ___swift_memcpy80_8, symObjAddr: 0x16B0, symBinAddr: 0xE030, symSize: 0x30 }
-  - { offset: 0x583A8, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererVMa', symObjAddr: 0x16E0, symBinAddr: 0xE060, symSize: 0x10 }
-  - { offset: 0x583BC, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV7MarkersVMa', symObjAddr: 0x1A50, symBinAddr: 0xE3A0, symSize: 0x10 }
-  - { offset: 0x583DB, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo15NSManagedObjectC_Ttg5', symObjAddr: 0x1A60, symBinAddr: 0xE3B0, symSize: 0x50 }
-  - { offset: 0x58460, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15PrettyRecordKit9JSONValueO_Tg5', symObjAddr: 0x1AB0, symBinAddr: 0xE400, symSize: 0x130 }
-  - { offset: 0x585A4, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5', symObjAddr: 0x1BE0, symBinAddr: 0xE530, symSize: 0x120 }
-  - { offset: 0x586E8, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyp_Tg5', symObjAddr: 0x1D00, symBinAddr: 0xE650, symSize: 0x120 }
-  - { offset: 0x587DF, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSo15NSManagedObjectC_Tt1g5', symObjAddr: 0x1E20, symBinAddr: 0xE770, symSize: 0x80 }
-  - { offset: 0x5882B, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tt1g5', symObjAddr: 0x1EA0, symBinAddr: 0xE7F0, symSize: 0x90 }
-  - { offset: 0x588D6, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15PrettyRecordKit0P10Converting_p_Tg5', symObjAddr: 0x1F30, symBinAddr: 0xE880, symSize: 0x160 }
-  - { offset: 0x58A46, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo15NSManagedObjectC_Tg5', symObjAddr: 0x2090, symBinAddr: 0xE9E0, symSize: 0x140 }
-  - { offset: 0x58BD8, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tg5', symObjAddr: 0x21D0, symBinAddr: 0xEB20, symSize: 0x120 }
-  - { offset: 0x58CF9, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSo15NSManagedObjectC_Tg5', symObjAddr: 0x22F0, symBinAddr: 0xEC40, symSize: 0x100 }
-  - { offset: 0x58E43, size: 0x8, addend: 0x0, symName: '_$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVySSG_Tg508$sSTsSL7C80RpzrlE6sortedSayABGyFSbAB_ABtcfu_SD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tt1G5Tf1cn_n', symObjAddr: 0x23F0, symBinAddr: 0xED40, symSize: 0x60 }
-  - { offset: 0x58F3F, size: 0x8, addend: 0x0, symName: '_$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS_Tg595$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_SD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tt1G5Tf1cn_n', symObjAddr: 0x2450, symBinAddr: 0xEDA0, symSize: 0xE0 }
-  - { offset: 0x591CA, size: 0x8, addend: 0x0, symName: '_$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_SS_Tg595$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_SD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tt1G5Tf1nnncn_n', symObjAddr: 0x2530, symBinAddr: 0xEE80, symSize: 0x4D0 }
-  - { offset: 0x59840, size: 0x8, addend: 0x0, symName: '_$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSrySSG_Tg508$sSTsSL7H80RpzrlE6sortedSayABGyFSbAB_ABtcfu_SD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tt1G5Tf1nncn_n', symObjAddr: 0x2A00, symBinAddr: 0xF350, symSize: 0xE0 }
-  - { offset: 0x59A35, size: 0x8, addend: 0x0, symName: '_$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKFSS_Tg595$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_SD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tt1G5Tf1nncn_n', symObjAddr: 0x2AE0, symBinAddr: 0xF430, symSize: 0x2C0 }
-  - { offset: 0x59DE2, size: 0x8, addend: 0x0, symName: '_$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSS_Tg595$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_SD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tt1G5Tf1nnnnc_n', symObjAddr: 0x2DA0, symBinAddr: 0xF6F0, symSize: 0x280 }
-  - { offset: 0x59FAD, size: 0x8, addend: 0x0, symName: '_$sSa6remove2atxSi_tFSnySiG_Tg5', symObjAddr: 0x3020, symBinAddr: 0xF970, symSize: 0x90 }
-  - { offset: 0x5A033, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFSnySiG_Tgq5', symObjAddr: 0x30B0, symBinAddr: 0xFA00, symSize: 0x20 }
-  - { offset: 0x5A077, size: 0x8, addend: 0x0, symName: '_$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFSD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tg5', symObjAddr: 0x3210, symBinAddr: 0xFA20, symSize: 0x1A0 }
-  - { offset: 0x5A11A, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNewAByxGyFSS_Tg5', symObjAddr: 0x3470, symBinAddr: 0xFBC0, symSize: 0x20 }
-  - { offset: 0x5A15D, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV6string6number8boolTrue0I5False4nullAESS_S4StcfC', symObjAddr: 0xD0, symBinAddr: 0xD0C0, symSize: 0x30 }
-  - { offset: 0x5A1C9, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV7markersA2C7MarkersV_tcfC', symObjAddr: 0x100, symBinAddr: 0xD0F0, symSize: 0x30 }
-  - { offset: 0x5A1EA, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtF', symObjAddr: 0x130, symBinAddr: 0xD120, symSize: 0xA0 }
-  - { offset: 0x5A238, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV7markersAC7MarkersVvg', symObjAddr: 0x490, symBinAddr: 0xD1C0, symSize: 0x80 }
-  - { offset: 0x5A24C, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV7markersAC7MarkersVvs', symObjAddr: 0x510, symBinAddr: 0xD240, symSize: 0x80 }
-  - { offset: 0x5A2BC, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV5write33_5AF9A5DEC4CC2AB0660241CA03AD6742LL_4into5depth7optionsyAA9JSONValueO_SSzSiAA0aB0O7OptionsVtF', symObjAddr: 0x5B0, symBinAddr: 0xD2C0, symSize: 0xD20 }
+  - { offset: 0x574E1, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVwxx', symObjAddr: 0x600, symBinAddr: 0xC920, symSize: 0x90 }
+  - { offset: 0x574F5, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVwcp', symObjAddr: 0x690, symBinAddr: 0xC9B0, symSize: 0x1A0 }
+  - { offset: 0x57509, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVwca', symObjAddr: 0x830, symBinAddr: 0xCB50, symSize: 0x1F0 }
+  - { offset: 0x5751D, size: 0x8, addend: 0x0, symName: ___swift_memcpy192_8, symObjAddr: 0xA20, symBinAddr: 0xCD40, symSize: 0x10 }
+  - { offset: 0x57531, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVwta', symObjAddr: 0xA30, symBinAddr: 0xCD50, symSize: 0x180 }
+  - { offset: 0x57545, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVwet', symObjAddr: 0xBB0, symBinAddr: 0xCED0, symSize: 0x40 }
+  - { offset: 0x57559, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVwst', symObjAddr: 0xBF0, symBinAddr: 0xCF10, symSize: 0x80 }
+  - { offset: 0x5756D, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVMa', symObjAddr: 0xC70, symBinAddr: 0xCF90, symSize: 0x10 }
+  - { offset: 0x57589, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererV5theme7markersAcA16ANSIJSONRendererV5ThemeV_AA06MarkedE0V7MarkersVtcfC', symObjAddr: 0x0, symBinAddr: 0xC350, symSize: 0x70 }
+  - { offset: 0x576C0, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererV6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtF', symObjAddr: 0x70, symBinAddr: 0xC3C0, symSize: 0x2B0 }
+  - { offset: 0x577C9, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererVAA13JSONRenderingA2aDP6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtFTW', symObjAddr: 0x320, symBinAddr: 0xC670, symSize: 0x10 }
+  - { offset: 0x577DD, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19DefaultJSONRendererV18supportsANSIColorsSbvgZTf4d_n', symObjAddr: 0x330, symBinAddr: 0xC680, symSize: 0x2A0 }
+  - { offset: 0x57A17, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit22FoundationJSONRendererVMa', symObjAddr: 0x4C0, symBinAddr: 0xD270, symSize: 0x10 }
+  - { offset: 0x57ACC, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit22FoundationJSONRendererV6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtF', symObjAddr: 0x10, symBinAddr: 0xCFA0, symSize: 0x2C0 }
+  - { offset: 0x57C5A, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit22FoundationJSONRendererVAA13JSONRenderingA2aDP6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtFTW', symObjAddr: 0x2D0, symBinAddr: 0xD260, symSize: 0x10 }
+  - { offset: 0x57D9B, size: 0x8, addend: 0x0, symName: '_$sSTsSL7ElementRpzrlE6sortedSayABGyFSD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tg5', symObjAddr: 0x0, symBinAddr: 0xD280, symSize: 0xD0 }
+  - { offset: 0x584E0, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV7MarkersVWOc', symObjAddr: 0x12D0, symBinAddr: 0xE270, symSize: 0x30 }
+  - { offset: 0x584F4, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererVWOh', symObjAddr: 0x1300, symBinAddr: 0xE2A0, symSize: 0x20 }
+  - { offset: 0x58508, size: 0x8, addend: 0x0, symName: ___swift_memcpy80_8, symObjAddr: 0x16B0, symBinAddr: 0xE2C0, symSize: 0x30 }
+  - { offset: 0x5851C, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererVMa', symObjAddr: 0x16E0, symBinAddr: 0xE2F0, symSize: 0x10 }
+  - { offset: 0x58530, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV7MarkersVMa', symObjAddr: 0x1A50, symBinAddr: 0xE630, symSize: 0x10 }
+  - { offset: 0x5854F, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo15NSManagedObjectC_Ttg5', symObjAddr: 0x1A60, symBinAddr: 0xE640, symSize: 0x50 }
+  - { offset: 0x585D4, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15PrettyRecordKit9JSONValueO_Tg5', symObjAddr: 0x1AB0, symBinAddr: 0xE690, symSize: 0x130 }
+  - { offset: 0x58718, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5', symObjAddr: 0x1BE0, symBinAddr: 0xE7C0, symSize: 0x120 }
+  - { offset: 0x5885C, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyp_Tg5', symObjAddr: 0x1D00, symBinAddr: 0xE8E0, symSize: 0x120 }
+  - { offset: 0x58953, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSo15NSManagedObjectC_Tt1g5', symObjAddr: 0x1E20, symBinAddr: 0xEA00, symSize: 0x80 }
+  - { offset: 0x5899F, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tt1g5', symObjAddr: 0x1EA0, symBinAddr: 0xEA80, symSize: 0x90 }
+  - { offset: 0x58A4A, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15PrettyRecordKit0P10Converting_p_Tg5', symObjAddr: 0x1F30, symBinAddr: 0xEB10, symSize: 0x160 }
+  - { offset: 0x58BBA, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo15NSManagedObjectC_Tg5', symObjAddr: 0x2090, symBinAddr: 0xEC70, symSize: 0x140 }
+  - { offset: 0x58D4C, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tg5', symObjAddr: 0x21D0, symBinAddr: 0xEDB0, symSize: 0x120 }
+  - { offset: 0x58E6D, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSo15NSManagedObjectC_Tg5', symObjAddr: 0x22F0, symBinAddr: 0xEED0, symSize: 0x100 }
+  - { offset: 0x58FB7, size: 0x8, addend: 0x0, symName: '_$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVySSG_Tg508$sSTsSL7C80RpzrlE6sortedSayABGyFSbAB_ABtcfu_SD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tt1G5Tf1cn_n', symObjAddr: 0x23F0, symBinAddr: 0xEFD0, symSize: 0x60 }
+  - { offset: 0x590B3, size: 0x8, addend: 0x0, symName: '_$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS_Tg595$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_SD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tt1G5Tf1cn_n', symObjAddr: 0x2450, symBinAddr: 0xF030, symSize: 0xE0 }
+  - { offset: 0x5933E, size: 0x8, addend: 0x0, symName: '_$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_SS_Tg595$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_SD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tt1G5Tf1nnncn_n', symObjAddr: 0x2530, symBinAddr: 0xF110, symSize: 0x4D0 }
+  - { offset: 0x599B4, size: 0x8, addend: 0x0, symName: '_$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSrySSG_Tg508$sSTsSL7H80RpzrlE6sortedSayABGyFSbAB_ABtcfu_SD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tt1G5Tf1nncn_n', symObjAddr: 0x2A00, symBinAddr: 0xF5E0, symSize: 0xE0 }
+  - { offset: 0x59BA9, size: 0x8, addend: 0x0, symName: '_$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKFSS_Tg595$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_SD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tt1G5Tf1nncn_n', symObjAddr: 0x2AE0, symBinAddr: 0xF6C0, symSize: 0x2C0 }
+  - { offset: 0x59F56, size: 0x8, addend: 0x0, symName: '_$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSS_Tg595$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_SD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tt1G5Tf1nnnnc_n', symObjAddr: 0x2DA0, symBinAddr: 0xF980, symSize: 0x280 }
+  - { offset: 0x5A121, size: 0x8, addend: 0x0, symName: '_$sSa6remove2atxSi_tFSnySiG_Tg5', symObjAddr: 0x3020, symBinAddr: 0xFC00, symSize: 0x90 }
+  - { offset: 0x5A1A7, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFSnySiG_Tgq5', symObjAddr: 0x30B0, symBinAddr: 0xFC90, symSize: 0x20 }
+  - { offset: 0x5A1EB, size: 0x8, addend: 0x0, symName: '_$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFSD4KeysVySS15PrettyRecordKit9JSONValueO_G_Tg5', symObjAddr: 0x3210, symBinAddr: 0xFCB0, symSize: 0x1A0 }
+  - { offset: 0x5A28E, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNewAByxGyFSS_Tg5', symObjAddr: 0x3470, symBinAddr: 0xFE50, symSize: 0x20 }
+  - { offset: 0x5A2D1, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV7MarkersV6string6number8boolTrue0I5False4nullAESS_S4StcfC', symObjAddr: 0xD0, symBinAddr: 0xD350, symSize: 0x30 }
+  - { offset: 0x5A33D, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV7markersA2C7MarkersV_tcfC', symObjAddr: 0x100, symBinAddr: 0xD380, symSize: 0x30 }
+  - { offset: 0x5A35E, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtF', symObjAddr: 0x130, symBinAddr: 0xD3B0, symSize: 0xA0 }
+  - { offset: 0x5A3AC, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV7markersAC7MarkersVvg', symObjAddr: 0x490, symBinAddr: 0xD450, symSize: 0x80 }
+  - { offset: 0x5A3C0, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV7markersAC7MarkersVvs', symObjAddr: 0x510, symBinAddr: 0xD4D0, symSize: 0x80 }
+  - { offset: 0x5A430, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit18MarkedJSONRendererV5write33_5AF9A5DEC4CC2AB0660241CA03AD6742LL_4into5depth7optionsyAA9JSONValueO_SSzSiAA0aB0O7OptionsVtF', symObjAddr: 0x5B0, symBinAddr: 0xD550, symSize: 0xD20 }
 ...

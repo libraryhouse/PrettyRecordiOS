@@ -13,7 +13,7 @@ https://github.com/libraryhouse/PrettyRecordiOS.git
 Or in `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/libraryhouse/PrettyRecordiOS.git", from: "1.0.3")
+.package(url: "https://github.com/libraryhouse/PrettyRecordiOS.git", from: "1.0.4")
 ```
 
 Then (the module name is `PrettyRecordKit`, even though the repo is `PrettyRecordiOS`):
