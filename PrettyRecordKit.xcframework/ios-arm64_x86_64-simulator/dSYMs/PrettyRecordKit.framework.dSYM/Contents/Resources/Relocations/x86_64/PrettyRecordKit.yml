@@ -1,6 +1,6 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/ombhagwan/Library/Developer/Xcode/DerivedData/PrettyRecord-ckxrlwnklxngjsfuexsapwrvuhpi/Build/Intermediates.noindex/ArchiveIntermediates/PrettyRecord/InstallationBuildProductsLocation/usr/local/lib/PrettyRecordKit.framework/PrettyRecordKit'
+binary-path:     '/tmp/claude-501/-Users-ombhagwan/75f05db2-7be5-47b2-80e4-1a437b943418/scratchpad/xcf2/dd-sim/Build/Intermediates.noindex/ArchiveIntermediates/PrettyRecord/InstallationBuildProductsLocation/usr/local/lib/PrettyRecordKit.framework/PrettyRecordKit'
 relocations:
   - { offset: 0x3587B, size: 0x8, addend: 0x0, symName: '_$sSE15PrettyRecordKitE10prettyJSONSSvg', symObjAddr: 0x0, symBinAddr: 0x1080, symSize: 0x90 }
   - { offset: 0x358A4, size: 0x8, addend: 0x0, symName: '_$sSE15PrettyRecordKitE10prettyJSONSSvg', symObjAddr: 0x0, symBinAddr: 0x1080, symSize: 0x90 }
@@ -22,7 +22,7 @@ relocations:
   - { offset: 0x35F61, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x5B0, symBinAddr: 0x1910, symSize: 0x30 }
   - { offset: 0x35F75, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgWOe', symObjAddr: 0x5E0, symBinAddr: 0x1940, symSize: 0x20 }
   - { offset: 0x35F89, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x600, symBinAddr: 0x1960, symSize: 0x40 }
-  - { offset: 0x360FC, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O6sharedAA0aB9FormatterCvpZ', symObjAddr: 0x5788, symBinAddr: 0xFCF8, symSize: 0x0 }
+  - { offset: 0x360FC, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O6sharedAA0aB9FormatterCvpZ', symObjAddr: 0x5800, symBinAddr: 0xFCF8, symSize: 0x0 }
   - { offset: 0x36195, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O7OptionsV7defaultAEvpZ', symObjAddr: 0x9E0, symBinAddr: 0xCD40, symSize: 0x0 }
   - { offset: 0x364F9, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O7OptionsV7compactAEvpZ', symObjAddr: 0x9F0, symBinAddr: 0xCD50, symSize: 0x0 }
   - { offset: 0x36507, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O6sharedAA0aB9FormatterCvau', symObjAddr: 0x0, symBinAddr: 0x19A0, symSize: 0x40 }
@@ -161,8 +161,8 @@ relocations:
   - { offset: 0x3C998, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19ReflectionConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF', symObjAddr: 0x50, symBinAddr: 0x83B0, symSize: 0x7A0 }
   - { offset: 0x3CC70, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19ReflectionConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtFAGSSSg5label_yp5valuet_tXEfU_', symObjAddr: 0x7F0, symBinAddr: 0x8B50, symSize: 0x90 }
   - { offset: 0x3CCCB, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit19ReflectionConverterVAA0B10ConvertingA2aDP7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtFTW', symObjAddr: 0x920, symBinAddr: 0x8C80, symSize: 0x10 }
-  - { offset: 0x3CDC5, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB10FormattersO7iso8601So22NSISO8601DateFormatterCvpZ', symObjAddr: 0x36B0, symBinAddr: 0xFD00, symSize: 0x0 }
-  - { offset: 0x3CDDF, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB10FormattersO9byteCountSo17NSNumberFormatterCvpZ', symObjAddr: 0x36B8, symBinAddr: 0xFD08, symSize: 0x0 }
+  - { offset: 0x3CDC5, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB10FormattersO7iso8601So22NSISO8601DateFormatterCvpZ', symObjAddr: 0x3728, symBinAddr: 0xFD00, symSize: 0x0 }
+  - { offset: 0x3CDDF, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB10FormattersO9byteCountSo17NSNumberFormatterCvpZ', symObjAddr: 0x3730, symBinAddr: 0xFD08, symSize: 0x0 }
   - { offset: 0x3CDFE, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O12DateEncodingO9jsonValue3forAA9JSONValueO10Foundation0D0V_tF', symObjAddr: 0x0, symBinAddr: 0x9630, symSize: 0x120 }
   - { offset: 0x3CE89, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O12DateEncodingO15encoderStrategy10Foundation11JSONEncoderC0deG0OvgyAG0D0V_s7Encoder_ptYbKcfU_', symObjAddr: 0x1D0, symBinAddr: 0x9800, symSize: 0x110 }
   - { offset: 0x3CEEE, size: 0x8, addend: 0x0, symName: '_$s15PrettyRecordKit0aB0O12DateEncodingO15encoderStrategy10Foundation11JSONEncoderC0deG0OvgyAG0D0V_s7Encoder_ptYbKcfU0_', symObjAddr: 0x2E0, symBinAddr: 0x9910, symSize: 0xC0 }

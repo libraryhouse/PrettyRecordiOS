@@ -1,0 +1,4173 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PrettyRecordKit",
+    "printedName": "PrettyRecordKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PrettyRecord",
+        "printedName": "PrettyRecord",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrettyRecordFormatter",
+                "printedName": "PrettyRecordKit.PrettyRecordFormatter",
+                "usr": "s:15PrettyRecordKit0aB9FormatterC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15PrettyRecordKit0aB0O6sharedAA0aB9FormatterCvpZ",
+            "mangledName": "$s15PrettyRecordKit0aB0O6sharedAA0aB9FormatterCvpZ",
+            "moduleName": "PrettyRecordKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrettyRecordFormatter",
+                    "printedName": "PrettyRecordKit.PrettyRecordFormatter",
+                    "usr": "s:15PrettyRecordKit0aB9FormatterC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PrettyRecordKit0aB0O6sharedAA0aB9FormatterCvgZ",
+                "mangledName": "$s15PrettyRecordKit0aB0O6sharedAA0aB9FormatterCvgZ",
+                "moduleName": "PrettyRecordKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Options",
+            "printedName": "Options",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "relationshipDepth",
+                "printedName": "relationshipDepth",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV17relationshipDepthSivp",
+                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV17relationshipDepthSivp",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV17relationshipDepthSivg",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV17relationshipDepthSivg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV17relationshipDepthSivs",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV17relationshipDepthSivs",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV17relationshipDepthSivM",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV17relationshipDepthSivM",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "sortedKeys",
+                "printedName": "sortedKeys",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV10sortedKeysSbvp",
+                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV10sortedKeysSbvp",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV10sortedKeysSbvg",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV10sortedKeysSbvg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV10sortedKeysSbvs",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV10sortedKeysSbvs",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV10sortedKeysSbvM",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV10sortedKeysSbvM",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "prettyPrinted",
+                "printedName": "prettyPrinted",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV13prettyPrintedSbvp",
+                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV13prettyPrintedSbvp",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV13prettyPrintedSbvg",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV13prettyPrintedSbvg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV13prettyPrintedSbvs",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV13prettyPrintedSbvs",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV13prettyPrintedSbvM",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV13prettyPrintedSbvM",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "includeEntityName",
+                "printedName": "includeEntityName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV17includeEntityNameSbvp",
+                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV17includeEntityNameSbvp",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV17includeEntityNameSbvg",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV17includeEntityNameSbvg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV17includeEntityNameSbvs",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV17includeEntityNameSbvs",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV17includeEntityNameSbvM",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV17includeEntityNameSbvM",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "dateEncoding",
+                "printedName": "dateEncoding",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DateEncoding",
+                    "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                    "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV12dateEncodingAC04DateF0Ovp",
+                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV12dateEncodingAC04DateF0Ovp",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DateEncoding",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                        "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV12dateEncodingAC04DateF0Ovg",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV12dateEncodingAC04DateF0Ovg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DateEncoding",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                        "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV12dateEncodingAC04DateF0Ovs",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV12dateEncodingAC04DateF0Ovs",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV12dateEncodingAC04DateF0OvM",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV12dateEncodingAC04DateF0OvM",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "dataEncoding",
+                "printedName": "dataEncoding",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataEncoding",
+                    "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding",
+                    "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV12dataEncodingAC04DataF0Ovp",
+                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV12dataEncodingAC04DataF0Ovp",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataEncoding",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding",
+                        "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV12dataEncodingAC04DataF0Ovg",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV12dataEncodingAC04DataF0Ovg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataEncoding",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding",
+                        "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV12dataEncodingAC04DataF0Ovs",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV12dataEncodingAC04DataF0Ovs",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV12dataEncodingAC04DataF0OvM",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV12dataEncodingAC04DataF0OvM",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(relationshipDepth:sortedKeys:prettyPrinted:includeEntityName:dateEncoding:dataEncoding:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "hasDefaultArg": true,
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DateEncoding",
+                    "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                    "hasDefaultArg": true,
+                    "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataEncoding",
+                    "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding",
+                    "hasDefaultArg": true,
+                    "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV17relationshipDepth10sortedKeys13prettyPrinted17includeEntityName12dateEncoding04dataO0AESi_S3bAC04DateO0OAC04DataO0Otcfc",
+                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV17relationshipDepth10sortedKeys13prettyPrinted17includeEntityName12dateEncoding04dataO0AESi_S3bAC04DateO0OAC04DataO0Otcfc",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "default",
+                "printedName": "default",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV7defaultAEvpZ",
+                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV7defaultAEvpZ",
+                "moduleName": "PrettyRecordKit",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                        "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV7defaultAEvgZ",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV7defaultAEvgZ",
+                    "moduleName": "PrettyRecordKit",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "compact",
+                "printedName": "compact",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV7compactAEvpZ",
+                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV7compactAEvpZ",
+                "moduleName": "PrettyRecordKit",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                        "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV7compactAEvgZ",
+                    "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV7compactAEvgZ",
+                    "moduleName": "PrettyRecordKit",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "expanded",
+                "printedName": "expanded(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV8expandedyAESiFZ",
+                "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV8expandedyAESiFZ",
+                "moduleName": "PrettyRecordKit",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:15PrettyRecordKit0aB0O7OptionsV",
+            "mangledName": "$s15PrettyRecordKit0aB0O7OptionsV",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "DateEncoding",
+            "printedName": "DateEncoding",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "iso8601",
+                "printedName": "iso8601",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrettyRecordKit.PrettyRecord.DateEncoding.Type) -> PrettyRecordKit.PrettyRecord.DateEncoding",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DateEncoding",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                        "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DateEncoding",
+                            "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                            "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO7iso8601yA2EmF",
+                "mangledName": "$s15PrettyRecordKit0aB0O12DateEncodingO7iso8601yA2EmF",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "secondsSince1970",
+                "printedName": "secondsSince1970",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrettyRecordKit.PrettyRecord.DateEncoding.Type) -> PrettyRecordKit.PrettyRecord.DateEncoding",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DateEncoding",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                        "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DateEncoding",
+                            "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                            "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO16secondsSince1970yA2EmF",
+                "mangledName": "$s15PrettyRecordKit0aB0O12DateEncodingO16secondsSince1970yA2EmF",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "millisecondsSince1970",
+                "printedName": "millisecondsSince1970",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrettyRecordKit.PrettyRecord.DateEncoding.Type) -> PrettyRecordKit.PrettyRecord.DateEncoding",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DateEncoding",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                        "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DateEncoding",
+                            "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                            "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO21millisecondsSince1970yA2EmF",
+                "mangledName": "$s15PrettyRecordKit0aB0O12DateEncodingO21millisecondsSince1970yA2EmF",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "description",
+                "printedName": "description",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrettyRecordKit.PrettyRecord.DateEncoding.Type) -> PrettyRecordKit.PrettyRecord.DateEncoding",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DateEncoding",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                        "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DateEncoding",
+                            "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                            "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO11descriptionyA2EmF",
+                "mangledName": "$s15PrettyRecordKit0aB0O12DateEncodingO11descriptionyA2EmF",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DateEncoding",
+                    "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                    "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DateEncoding",
+                    "printedName": "PrettyRecordKit.PrettyRecord.DateEncoding",
+                    "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s15PrettyRecordKit0aB0O12DateEncodingO2eeoiySbAE_AEtFZ",
+                "moduleName": "PrettyRecordKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO9hashValueSivp",
+                "mangledName": "$s15PrettyRecordKit0aB0O12DateEncodingO9hashValueSivp",
+                "moduleName": "PrettyRecordKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO9hashValueSivg",
+                    "mangledName": "$s15PrettyRecordKit0aB0O12DateEncodingO9hashValueSivg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s15PrettyRecordKit0aB0O12DateEncodingO4hash4intoys6HasherVz_tF",
+                "moduleName": "PrettyRecordKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:15PrettyRecordKit0aB0O12DateEncodingO",
+            "mangledName": "$s15PrettyRecordKit0aB0O12DateEncodingO",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "DataEncoding",
+            "printedName": "DataEncoding",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "byteCount",
+                "printedName": "byteCount",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrettyRecordKit.PrettyRecord.DataEncoding.Type) -> PrettyRecordKit.PrettyRecord.DataEncoding",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataEncoding",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding",
+                        "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DataEncoding",
+                            "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding",
+                            "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO9byteCountyA2EmF",
+                "mangledName": "$s15PrettyRecordKit0aB0O12DataEncodingO9byteCountyA2EmF",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "base64",
+                "printedName": "base64",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrettyRecordKit.PrettyRecord.DataEncoding.Type) -> PrettyRecordKit.PrettyRecord.DataEncoding",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataEncoding",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding",
+                        "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DataEncoding",
+                            "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding",
+                            "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO6base64yA2EmF",
+                "mangledName": "$s15PrettyRecordKit0aB0O12DataEncodingO6base64yA2EmF",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "omitted",
+                "printedName": "omitted",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrettyRecordKit.PrettyRecord.DataEncoding.Type) -> PrettyRecordKit.PrettyRecord.DataEncoding",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataEncoding",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding",
+                        "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DataEncoding",
+                            "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding",
+                            "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO7omittedyA2EmF",
+                "mangledName": "$s15PrettyRecordKit0aB0O12DataEncodingO7omittedyA2EmF",
+                "moduleName": "PrettyRecordKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataEncoding",
+                    "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding",
+                    "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataEncoding",
+                    "printedName": "PrettyRecordKit.PrettyRecord.DataEncoding",
+                    "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s15PrettyRecordKit0aB0O12DataEncodingO2eeoiySbAE_AEtFZ",
+                "moduleName": "PrettyRecordKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO9hashValueSivp",
+                "mangledName": "$s15PrettyRecordKit0aB0O12DataEncodingO9hashValueSivp",
+                "moduleName": "PrettyRecordKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO9hashValueSivg",
+                    "mangledName": "$s15PrettyRecordKit0aB0O12DataEncodingO9hashValueSivg",
+                    "moduleName": "PrettyRecordKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s15PrettyRecordKit0aB0O12DataEncodingO4hash4intoys6HasherVz_tF",
+                "moduleName": "PrettyRecordKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:15PrettyRecordKit0aB0O12DataEncodingO",
+            "mangledName": "$s15PrettyRecordKit0aB0O12DataEncodingO",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(for:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                "hasDefaultArg": true,
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit0aB0O6string3for7optionsSSypSg_AC7OptionsVtFZ",
+            "mangledName": "$s15PrettyRecordKit0aB0O6string3for7optionsSSypSg_AC7OptionsVtFZ",
+            "moduleName": "PrettyRecordKit",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "print",
+            "printedName": "print(_:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                "hasDefaultArg": true,
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit0aB0O5print_7optionsyypSg_AC7OptionsVtFZ",
+            "mangledName": "$s15PrettyRecordKit0aB0O5print_7optionsyypSg_AC7OptionsVtFZ",
+            "moduleName": "PrettyRecordKit",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prettify",
+            "printedName": "prettify(jsonData:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                "hasDefaultArg": true,
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit0aB0O8prettify8jsonData7optionsSS10Foundation0F0V_AC7OptionsVtFZ",
+            "mangledName": "$s15PrettyRecordKit0aB0O8prettify8jsonData7optionsSS10Foundation0F0V_AC7OptionsVtFZ",
+            "moduleName": "PrettyRecordKit",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prettify",
+            "printedName": "prettify(jsonString:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                "hasDefaultArg": true,
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit0aB0O8prettify10jsonString7optionsS2S_AC7OptionsVtFZ",
+            "mangledName": "$s15PrettyRecordKit0aB0O8prettify10jsonString7optionsS2S_AC7OptionsVtFZ",
+            "moduleName": "PrettyRecordKit",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15PrettyRecordKit0aB0O",
+        "mangledName": "$s15PrettyRecordKit0aB0O",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JSONValue",
+        "printedName": "JSONValue",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrettyRecordKit.JSONValue.Type) -> (Swift.String) -> PrettyRecordKit.JSONValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PrettyRecordKit.JSONValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "PrettyRecordKit.JSONValue",
+                        "usr": "s:15PrettyRecordKit9JSONValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrettyRecordKit.JSONValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "PrettyRecordKit.JSONValue",
+                        "usr": "s:15PrettyRecordKit9JSONValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15PrettyRecordKit9JSONValueO6stringyACSScACmF",
+            "mangledName": "$s15PrettyRecordKit9JSONValueO6stringyACSScACmF",
+            "moduleName": "PrettyRecordKit"
+          },
+          {
+            "kind": "Var",
+            "name": "number",
+            "printedName": "number",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrettyRecordKit.JSONValue.Type) -> (Foundation.NSNumber) -> PrettyRecordKit.JSONValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSNumber) -> PrettyRecordKit.JSONValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "PrettyRecordKit.JSONValue",
+                        "usr": "s:15PrettyRecordKit9JSONValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrettyRecordKit.JSONValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "PrettyRecordKit.JSONValue",
+                        "usr": "s:15PrettyRecordKit9JSONValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15PrettyRecordKit9JSONValueO6numberyACSo8NSNumberCcACmF",
+            "mangledName": "$s15PrettyRecordKit9JSONValueO6numberyACSo8NSNumberCcACmF",
+            "moduleName": "PrettyRecordKit"
+          },
+          {
+            "kind": "Var",
+            "name": "bool",
+            "printedName": "bool",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrettyRecordKit.JSONValue.Type) -> (Swift.Bool) -> PrettyRecordKit.JSONValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> PrettyRecordKit.JSONValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "PrettyRecordKit.JSONValue",
+                        "usr": "s:15PrettyRecordKit9JSONValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrettyRecordKit.JSONValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "PrettyRecordKit.JSONValue",
+                        "usr": "s:15PrettyRecordKit9JSONValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15PrettyRecordKit9JSONValueO4boolyACSbcACmF",
+            "mangledName": "$s15PrettyRecordKit9JSONValueO4boolyACSbcACmF",
+            "moduleName": "PrettyRecordKit"
+          },
+          {
+            "kind": "Var",
+            "name": "null",
+            "printedName": "null",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrettyRecordKit.JSONValue.Type) -> PrettyRecordKit.JSONValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSONValue",
+                    "printedName": "PrettyRecordKit.JSONValue",
+                    "usr": "s:15PrettyRecordKit9JSONValueO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrettyRecordKit.JSONValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "PrettyRecordKit.JSONValue",
+                        "usr": "s:15PrettyRecordKit9JSONValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15PrettyRecordKit9JSONValueO4nullyA2CmF",
+            "mangledName": "$s15PrettyRecordKit9JSONValueO4nullyA2CmF",
+            "moduleName": "PrettyRecordKit"
+          },
+          {
+            "kind": "Var",
+            "name": "array",
+            "printedName": "array",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrettyRecordKit.JSONValue.Type) -> ([PrettyRecordKit.JSONValue]) -> PrettyRecordKit.JSONValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([PrettyRecordKit.JSONValue]) -> PrettyRecordKit.JSONValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "PrettyRecordKit.JSONValue",
+                        "usr": "s:15PrettyRecordKit9JSONValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[PrettyRecordKit.JSONValue]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JSONValue",
+                            "printedName": "PrettyRecordKit.JSONValue",
+                            "usr": "s:15PrettyRecordKit9JSONValueO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrettyRecordKit.JSONValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "PrettyRecordKit.JSONValue",
+                        "usr": "s:15PrettyRecordKit9JSONValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15PrettyRecordKit9JSONValueO5arrayyACSayACGcACmF",
+            "mangledName": "$s15PrettyRecordKit9JSONValueO5arrayyACSayACGcACmF",
+            "moduleName": "PrettyRecordKit"
+          },
+          {
+            "kind": "Var",
+            "name": "object",
+            "printedName": "object",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrettyRecordKit.JSONValue.Type) -> ([Swift.String : PrettyRecordKit.JSONValue]) -> PrettyRecordKit.JSONValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : PrettyRecordKit.JSONValue]) -> PrettyRecordKit.JSONValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "PrettyRecordKit.JSONValue",
+                        "usr": "s:15PrettyRecordKit9JSONValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : PrettyRecordKit.JSONValue]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JSONValue",
+                            "printedName": "PrettyRecordKit.JSONValue",
+                            "usr": "s:15PrettyRecordKit9JSONValueO"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrettyRecordKit.JSONValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "PrettyRecordKit.JSONValue",
+                        "usr": "s:15PrettyRecordKit9JSONValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15PrettyRecordKit9JSONValueO6objectyACSDySSACGcACmF",
+            "mangledName": "$s15PrettyRecordKit9JSONValueO6objectyACSDySSACGcACmF",
+            "moduleName": "PrettyRecordKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(foundationJSON:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JSONValue",
+                "printedName": "PrettyRecordKit.JSONValue",
+                "usr": "s:15PrettyRecordKit9JSONValueO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15PrettyRecordKit9JSONValueO14foundationJSONACyp_tcfc",
+            "mangledName": "$s15PrettyRecordKit9JSONValueO14foundationJSONACyp_tcfc",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "foundationObject",
+            "printedName": "foundationObject",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15PrettyRecordKit9JSONValueO16foundationObjectypvp",
+            "mangledName": "$s15PrettyRecordKit9JSONValueO16foundationObjectypvp",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PrettyRecordKit9JSONValueO16foundationObjectypvg",
+                "mangledName": "$s15PrettyRecordKit9JSONValueO16foundationObjectypvg",
+                "moduleName": "PrettyRecordKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15PrettyRecordKit9JSONValueO",
+        "mangledName": "$s15PrettyRecordKit9JSONValueO",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConversionContext",
+        "printedName": "ConversionContext",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "options",
+            "printedName": "options",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15PrettyRecordKit17ConversionContextC7optionsAA0aB0O7OptionsVvp",
+            "mangledName": "$s15PrettyRecordKit17ConversionContextC7optionsAA0aB0O7OptionsVvp",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                    "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PrettyRecordKit17ConversionContextC7optionsAA0aB0O7OptionsVvg",
+                "mangledName": "$s15PrettyRecordKit17ConversionContextC7optionsAA0aB0O7OptionsVvg",
+                "moduleName": "PrettyRecordKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "depth",
+            "printedName": "depth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15PrettyRecordKit17ConversionContextC5depthSivp",
+            "mangledName": "$s15PrettyRecordKit17ConversionContextC5depthSivp",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PrettyRecordKit17ConversionContextC5depthSivg",
+                "mangledName": "$s15PrettyRecordKit17ConversionContextC5depthSivg",
+                "moduleName": "PrettyRecordKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "convertChild",
+            "printedName": "convertChild(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JSONValue",
+                "printedName": "PrettyRecordKit.JSONValue",
+                "usr": "s:15PrettyRecordKit9JSONValueO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit17ConversionContextC12convertChildyAA9JSONValueOypSgF",
+            "mangledName": "$s15PrettyRecordKit17ConversionContextC12convertChildyAA9JSONValueOypSgF",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15PrettyRecordKit17ConversionContextC",
+        "mangledName": "$s15PrettyRecordKit17ConversionContextC",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PrettyRecordFormatter",
+        "printedName": "PrettyRecordFormatter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(converters:renderer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrettyRecordFormatter",
+                "printedName": "PrettyRecordKit.PrettyRecordFormatter",
+                "usr": "s:15PrettyRecordKit0aB9FormatterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any PrettyRecordKit.RecordConverting]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordConverting",
+                    "printedName": "any PrettyRecordKit.RecordConverting",
+                    "usr": "s:15PrettyRecordKit0B10ConvertingP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSONRendering",
+                "printedName": "any PrettyRecordKit.JSONRendering",
+                "hasDefaultArg": true,
+                "usr": "s:15PrettyRecordKit13JSONRenderingP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15PrettyRecordKit0aB9FormatterC10converters8rendererACSayAA0B10Converting_pG_AA13JSONRendering_ptcfc",
+            "mangledName": "$s15PrettyRecordKit0aB9FormatterC10converters8rendererACSayAA0B10Converting_pG_AA13JSONRendering_ptcfc",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "convert",
+            "printedName": "convert(_:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrettyRecordKit.JSONValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSONValue",
+                    "printedName": "PrettyRecordKit.JSONValue",
+                    "usr": "s:15PrettyRecordKit9JSONValueO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConversionContext",
+                "printedName": "PrettyRecordKit.ConversionContext",
+                "usr": "s:15PrettyRecordKit17ConversionContextC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit0aB9FormatterC7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "mangledName": "$s15PrettyRecordKit0aB9FormatterC7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(for:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                "hasDefaultArg": true,
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit0aB9FormatterC6string3for7optionsSSypSg_AA0aB0O7OptionsVtF",
+            "mangledName": "$s15PrettyRecordKit0aB9FormatterC6string3for7optionsSSypSg_AA0aB0O7OptionsVtF",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "defaultConverters",
+            "printedName": "defaultConverters()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any PrettyRecordKit.RecordConverting]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordConverting",
+                    "printedName": "any PrettyRecordKit.RecordConverting",
+                    "usr": "s:15PrettyRecordKit0B10ConvertingP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit0aB9FormatterC17defaultConvertersSayAA0B10Converting_pGyFZ",
+            "mangledName": "$s15PrettyRecordKit0aB9FormatterC17defaultConvertersSayAA0B10Converting_pGyFZ",
+            "moduleName": "PrettyRecordKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15PrettyRecordKit0aB9FormatterC",
+        "mangledName": "$s15PrettyRecordKit0aB9FormatterC",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RecordConverting",
+            "printedName": "RecordConverting",
+            "usr": "s:15PrettyRecordKit0B10ConvertingP",
+            "mangledName": "$s15PrettyRecordKit0B10ConvertingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RecordConverting",
+        "printedName": "RecordConverting",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "convert",
+            "printedName": "convert(_:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrettyRecordKit.JSONValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSONValue",
+                    "printedName": "PrettyRecordKit.JSONValue",
+                    "usr": "s:15PrettyRecordKit9JSONValueO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConversionContext",
+                "printedName": "PrettyRecordKit.ConversionContext",
+                "usr": "s:15PrettyRecordKit17ConversionContextC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit0B10ConvertingP7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "mangledName": "$s15PrettyRecordKit0B10ConvertingP7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "moduleName": "PrettyRecordKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrettyRecordKit.RecordConverting>",
+            "sugared_genericSig": "<Self where Self : PrettyRecordKit.RecordConverting>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15PrettyRecordKit0B10ConvertingP",
+        "mangledName": "$s15PrettyRecordKit0B10ConvertingP",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JSONRendering",
+        "printedName": "JSONRendering",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(_:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSONValue",
+                "printedName": "PrettyRecordKit.JSONValue",
+                "usr": "s:15PrettyRecordKit9JSONValueO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit13JSONRenderingP6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtF",
+            "mangledName": "$s15PrettyRecordKit13JSONRenderingP6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtF",
+            "moduleName": "PrettyRecordKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrettyRecordKit.JSONRendering>",
+            "sugared_genericSig": "<Self where Self : PrettyRecordKit.JSONRendering>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15PrettyRecordKit13JSONRenderingP",
+        "mangledName": "$s15PrettyRecordKit13JSONRenderingP",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReflectionConverter",
+        "printedName": "ReflectionConverter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "maxDepth",
+            "printedName": "maxDepth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15PrettyRecordKit19ReflectionConverterV8maxDepthSivp",
+            "mangledName": "$s15PrettyRecordKit19ReflectionConverterV8maxDepthSivp",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PrettyRecordKit19ReflectionConverterV8maxDepthSivg",
+                "mangledName": "$s15PrettyRecordKit19ReflectionConverterV8maxDepthSivg",
+                "moduleName": "PrettyRecordKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PrettyRecordKit19ReflectionConverterV8maxDepthSivs",
+                "mangledName": "$s15PrettyRecordKit19ReflectionConverterV8maxDepthSivs",
+                "moduleName": "PrettyRecordKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PrettyRecordKit19ReflectionConverterV8maxDepthSivM",
+                "mangledName": "$s15PrettyRecordKit19ReflectionConverterV8maxDepthSivM",
+                "moduleName": "PrettyRecordKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(maxDepth:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReflectionConverter",
+                "printedName": "PrettyRecordKit.ReflectionConverter",
+                "usr": "s:15PrettyRecordKit19ReflectionConverterV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15PrettyRecordKit19ReflectionConverterV8maxDepthACSi_tcfc",
+            "mangledName": "$s15PrettyRecordKit19ReflectionConverterV8maxDepthACSi_tcfc",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "convert",
+            "printedName": "convert(_:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrettyRecordKit.JSONValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSONValue",
+                    "printedName": "PrettyRecordKit.JSONValue",
+                    "usr": "s:15PrettyRecordKit9JSONValueO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConversionContext",
+                "printedName": "PrettyRecordKit.ConversionContext",
+                "usr": "s:15PrettyRecordKit17ConversionContextC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit19ReflectionConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "mangledName": "$s15PrettyRecordKit19ReflectionConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15PrettyRecordKit19ReflectionConverterV",
+        "mangledName": "$s15PrettyRecordKit19ReflectionConverterV",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RecordConverting",
+            "printedName": "RecordConverting",
+            "usr": "s:15PrettyRecordKit0B10ConvertingP",
+            "mangledName": "$s15PrettyRecordKit0B10ConvertingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoreDataConverter",
+        "printedName": "CoreDataConverter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CoreDataConverter",
+                "printedName": "PrettyRecordKit.CoreDataConverter",
+                "usr": "s:15PrettyRecordKit17CoreDataConverterV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15PrettyRecordKit17CoreDataConverterVACycfc",
+            "mangledName": "$s15PrettyRecordKit17CoreDataConverterVACycfc",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "convert",
+            "printedName": "convert(_:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrettyRecordKit.JSONValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSONValue",
+                    "printedName": "PrettyRecordKit.JSONValue",
+                    "usr": "s:15PrettyRecordKit9JSONValueO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConversionContext",
+                "printedName": "PrettyRecordKit.ConversionContext",
+                "usr": "s:15PrettyRecordKit17ConversionContextC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit17CoreDataConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "mangledName": "$s15PrettyRecordKit17CoreDataConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15PrettyRecordKit17CoreDataConverterV",
+        "mangledName": "$s15PrettyRecordKit17CoreDataConverterV",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RecordConverting",
+            "printedName": "RecordConverting",
+            "usr": "s:15PrettyRecordKit0B10ConvertingP",
+            "mangledName": "$s15PrettyRecordKit0B10ConvertingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RawJSONConverter",
+        "printedName": "RawJSONConverter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RawJSONConverter",
+                "printedName": "PrettyRecordKit.RawJSONConverter",
+                "usr": "s:15PrettyRecordKit16RawJSONConverterV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15PrettyRecordKit16RawJSONConverterVACycfc",
+            "mangledName": "$s15PrettyRecordKit16RawJSONConverterVACycfc",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "convert",
+            "printedName": "convert(_:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrettyRecordKit.JSONValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSONValue",
+                    "printedName": "PrettyRecordKit.JSONValue",
+                    "usr": "s:15PrettyRecordKit9JSONValueO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConversionContext",
+                "printedName": "PrettyRecordKit.ConversionContext",
+                "usr": "s:15PrettyRecordKit17ConversionContextC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit16RawJSONConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "mangledName": "$s15PrettyRecordKit16RawJSONConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15PrettyRecordKit16RawJSONConverterV",
+        "mangledName": "$s15PrettyRecordKit16RawJSONConverterV",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RecordConverting",
+            "printedName": "RecordConverting",
+            "usr": "s:15PrettyRecordKit0B10ConvertingP",
+            "mangledName": "$s15PrettyRecordKit0B10ConvertingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EncodableConverter",
+        "printedName": "EncodableConverter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EncodableConverter",
+                "printedName": "PrettyRecordKit.EncodableConverter",
+                "usr": "s:15PrettyRecordKit18EncodableConverterV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15PrettyRecordKit18EncodableConverterVACycfc",
+            "mangledName": "$s15PrettyRecordKit18EncodableConverterVACycfc",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "convert",
+            "printedName": "convert(_:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrettyRecordKit.JSONValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSONValue",
+                    "printedName": "PrettyRecordKit.JSONValue",
+                    "usr": "s:15PrettyRecordKit9JSONValueO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConversionContext",
+                "printedName": "PrettyRecordKit.ConversionContext",
+                "usr": "s:15PrettyRecordKit17ConversionContextC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit18EncodableConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "mangledName": "$s15PrettyRecordKit18EncodableConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15PrettyRecordKit18EncodableConverterV",
+        "mangledName": "$s15PrettyRecordKit18EncodableConverterV",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RecordConverting",
+            "printedName": "RecordConverting",
+            "usr": "s:15PrettyRecordKit0B10ConvertingP",
+            "mangledName": "$s15PrettyRecordKit0B10ConvertingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FoundationScalarConverter",
+        "printedName": "FoundationScalarConverter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FoundationScalarConverter",
+                "printedName": "PrettyRecordKit.FoundationScalarConverter",
+                "usr": "s:15PrettyRecordKit25FoundationScalarConverterV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15PrettyRecordKit25FoundationScalarConverterVACycfc",
+            "mangledName": "$s15PrettyRecordKit25FoundationScalarConverterVACycfc",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "convert",
+            "printedName": "convert(_:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrettyRecordKit.JSONValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSONValue",
+                    "printedName": "PrettyRecordKit.JSONValue",
+                    "usr": "s:15PrettyRecordKit9JSONValueO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConversionContext",
+                "printedName": "PrettyRecordKit.ConversionContext",
+                "usr": "s:15PrettyRecordKit17ConversionContextC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit25FoundationScalarConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "mangledName": "$s15PrettyRecordKit25FoundationScalarConverterV7convert_2inAA9JSONValueOSgyp_AA17ConversionContextCtF",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15PrettyRecordKit25FoundationScalarConverterV",
+        "mangledName": "$s15PrettyRecordKit25FoundationScalarConverterV",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RecordConverting",
+            "printedName": "RecordConverting",
+            "usr": "s:15PrettyRecordKit0B10ConvertingP",
+            "mangledName": "$s15PrettyRecordKit0B10ConvertingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FoundationJSONRenderer",
+        "printedName": "FoundationJSONRenderer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FoundationJSONRenderer",
+                "printedName": "PrettyRecordKit.FoundationJSONRenderer",
+                "usr": "s:15PrettyRecordKit22FoundationJSONRendererV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15PrettyRecordKit22FoundationJSONRendererVACycfc",
+            "mangledName": "$s15PrettyRecordKit22FoundationJSONRendererVACycfc",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(_:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSONValue",
+                "printedName": "PrettyRecordKit.JSONValue",
+                "usr": "s:15PrettyRecordKit9JSONValueO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PrettyRecordKit22FoundationJSONRendererV6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtF",
+            "mangledName": "$s15PrettyRecordKit22FoundationJSONRendererV6render_7optionsSSAA9JSONValueO_AA0aB0O7OptionsVtF",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15PrettyRecordKit22FoundationJSONRendererV",
+        "mangledName": "$s15PrettyRecordKit22FoundationJSONRendererV",
+        "moduleName": "PrettyRecordKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "JSONRendering",
+            "printedName": "JSONRendering",
+            "usr": "s:15PrettyRecordKit13JSONRenderingP",
+            "mangledName": "$s15PrettyRecordKit13JSONRenderingP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Encodable",
+        "printedName": "Encodable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "prettyJSON",
+            "printedName": "prettyJSON",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SE15PrettyRecordKitE10prettyJSONSSvp",
+            "mangledName": "$sSE15PrettyRecordKitE10prettyJSONSSvp",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SE15PrettyRecordKitE10prettyJSONSSvg",
+                "mangledName": "$sSE15PrettyRecordKitE10prettyJSONSSvg",
+                "moduleName": "PrettyRecordKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<Self where Self : Swift.Encodable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "prettyJSON",
+            "printedName": "prettyJSON(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SE15PrettyRecordKitE10prettyJSONySSAA0aB0O7OptionsVF",
+            "mangledName": "$sSE15PrettyRecordKitE10prettyJSONySSAA0aB0O7OptionsVF",
+            "moduleName": "PrettyRecordKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self where Self : Swift.Encodable>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:SE",
+        "mangledName": "$sSE",
+        "moduleName": "Swift",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Data",
+        "printedName": "Data",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "prettyJSON",
+            "printedName": "prettyJSON",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Foundation4DataV15PrettyRecordKitE10prettyJSONSSvp",
+            "mangledName": "$s10Foundation4DataV15PrettyRecordKitE10prettyJSONSSvp",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Foundation4DataV15PrettyRecordKitE10prettyJSONSSvg",
+                "mangledName": "$s10Foundation4DataV15PrettyRecordKitE10prettyJSONSSvg",
+                "moduleName": "PrettyRecordKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation4DataV",
+        "mangledName": "$s10Foundation4DataV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "AddressableForDependencies",
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<Foundation.Data>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSManagedObject",
+        "printedName": "NSManagedObject",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "prettyJSON",
+            "printedName": "prettyJSON",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So15NSManagedObjectC15PrettyRecordKitE10prettyJSONSSvp",
+            "mangledName": "$sSo15NSManagedObjectC15PrettyRecordKitE10prettyJSONSSvp",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "Nonisolated",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So15NSManagedObjectC15PrettyRecordKitE10prettyJSONSSvg",
+                "mangledName": "$sSo15NSManagedObjectC15PrettyRecordKitE10prettyJSONSSvg",
+                "moduleName": "PrettyRecordKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "prettyJSON",
+            "printedName": "prettyJSON(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "PrettyRecordKit.PrettyRecord.Options",
+                "usr": "s:15PrettyRecordKit0aB0O7OptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So15NSManagedObjectC15PrettyRecordKitE10prettyJSONySSAC0cD0O7OptionsVF",
+            "mangledName": "$sSo15NSManagedObjectC15PrettyRecordKitE10prettyJSONySSAC0cD0O7OptionsVF",
+            "moduleName": "PrettyRecordKit",
+            "declAttributes": [
+              "Nonisolated",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSManagedObject",
+        "moduleName": "CoreData",
+        "isOpen": true,
+        "intro_iOS": "3.0",
+        "objc_name": "NSManagedObject",
+        "declAttributes": [
+          "Available",
+          "RequiresStoredPropertyInits",
+          "ObjC",
+          "NonSendable",
+          "Nonisolated",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "Sources\/PrettyRecord\/API\/PrettyRecord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1521,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/API\/PrettyRecord.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1555,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/API\/PrettyRecord.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1595,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/API\/PrettyRecord.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1639,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/API\/PrettyRecord.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2314,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/Domain\/ConversionContext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 833,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/Infrastructure\/Converters\/ReflectionConverter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 578,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "Sources\/PrettyRecord\/Infrastructure\/Converters\/ReflectionConverter.swift",
+      "kind": "Dictionary",
+      "offset": 1214,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

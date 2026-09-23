@@ -1,0 +1,153 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -module-name PrettyRecordKit
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import CoreData
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum PrettyRecord {
+  public static let shared: PrettyRecordKit.PrettyRecordFormatter
+  public struct Options {
+    public var relationshipDepth: Swift.Int
+    public var sortedKeys: Swift.Bool
+    public var prettyPrinted: Swift.Bool
+    public var includeEntityName: Swift.Bool
+    public var dateEncoding: PrettyRecordKit.PrettyRecord.DateEncoding
+    public var dataEncoding: PrettyRecordKit.PrettyRecord.DataEncoding
+    public init(relationshipDepth: Swift.Int = 0, sortedKeys: Swift.Bool = true, prettyPrinted: Swift.Bool = true, includeEntityName: Swift.Bool = true, dateEncoding: PrettyRecordKit.PrettyRecord.DateEncoding = .iso8601, dataEncoding: PrettyRecordKit.PrettyRecord.DataEncoding = .byteCount)
+    public static let `default`: PrettyRecordKit.PrettyRecord.Options
+    public static let compact: PrettyRecordKit.PrettyRecord.Options
+    public static func expanded(_ depth: Swift.Int) -> PrettyRecordKit.PrettyRecord.Options
+  }
+  public enum DateEncoding {
+    case iso8601
+    case secondsSince1970
+    case millisecondsSince1970
+    case description
+    public static func == (a: PrettyRecordKit.PrettyRecord.DateEncoding, b: PrettyRecordKit.PrettyRecord.DateEncoding) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum DataEncoding {
+    case byteCount
+    case base64
+    case omitted
+    public static func == (a: PrettyRecordKit.PrettyRecord.DataEncoding, b: PrettyRecordKit.PrettyRecord.DataEncoding) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension Swift.Encodable {
+  public var prettyJSON: Swift.String {
+    get
+  }
+  public func prettyJSON(_ options: PrettyRecordKit.PrettyRecord.Options) -> Swift.String
+}
+extension PrettyRecordKit.PrettyRecord {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func string(for value: Any?, options: PrettyRecordKit.PrettyRecord.Options = .default) -> Swift.String
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func print(_ value: Any?, options: PrettyRecordKit.PrettyRecord.Options = .default)
+  #endif
+  public static func prettify(jsonData data: Foundation.Data, options: PrettyRecordKit.PrettyRecord.Options = .default) -> Swift.String
+  public static func prettify(jsonString string: Swift.String, options: PrettyRecordKit.PrettyRecord.Options = .default) -> Swift.String
+}
+extension Foundation.Data {
+  public var prettyJSON: Swift.String {
+    get
+  }
+}
+extension CoreData.NSManagedObject {
+  nonisolated public var prettyJSON: Swift.String {
+    get
+  }
+  nonisolated public func prettyJSON(_ options: PrettyRecordKit.PrettyRecord.Options) -> Swift.String
+}
+public enum JSONValue {
+  case string(Swift.String)
+  case number(Foundation.NSNumber)
+  case bool(Swift.Bool)
+  case null
+  case array([PrettyRecordKit.JSONValue])
+  case object([Swift.String : PrettyRecordKit.JSONValue])
+}
+extension PrettyRecordKit.JSONValue {
+  public init(foundationJSON object: Any)
+  public var foundationObject: Any {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class ConversionContext {
+  final public let options: PrettyRecordKit.PrettyRecord.Options
+  final public let depth: Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func convertChild(_ value: Any?) -> PrettyRecordKit.JSONValue
+  #endif
+  @objc deinit
+}
+final public class PrettyRecordFormatter : PrettyRecordKit.RecordConverting {
+  public init(converters: [any PrettyRecordKit.RecordConverting] = PrettyRecordFormatter.defaultConverters(), renderer: any PrettyRecordKit.JSONRendering = FoundationJSONRenderer())
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func convert(_ value: Any, in context: PrettyRecordKit.ConversionContext) -> PrettyRecordKit.JSONValue?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func string(for value: Any?, options: PrettyRecordKit.PrettyRecord.Options = .default) -> Swift.String
+  #endif
+  public static func defaultConverters() -> [any PrettyRecordKit.RecordConverting]
+  @objc deinit
+}
+public protocol RecordConverting {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func convert(_ value: Any, in context: PrettyRecordKit.ConversionContext) -> PrettyRecordKit.JSONValue?
+  #endif
+}
+public protocol JSONRendering {
+  func render(_ value: PrettyRecordKit.JSONValue, options: PrettyRecordKit.PrettyRecord.Options) -> Swift.String
+}
+public struct ReflectionConverter : PrettyRecordKit.RecordConverting {
+  public var maxDepth: Swift.Int
+  public init(maxDepth: Swift.Int = 8)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func convert(_ value: Any, in context: PrettyRecordKit.ConversionContext) -> PrettyRecordKit.JSONValue?
+  #endif
+}
+public struct CoreDataConverter : PrettyRecordKit.RecordConverting {
+  public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func convert(_ value: Any, in context: PrettyRecordKit.ConversionContext) -> PrettyRecordKit.JSONValue?
+  #endif
+}
+public struct RawJSONConverter : PrettyRecordKit.RecordConverting {
+  public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func convert(_ value: Any, in context: PrettyRecordKit.ConversionContext) -> PrettyRecordKit.JSONValue?
+  #endif
+}
+public struct EncodableConverter : PrettyRecordKit.RecordConverting {
+  public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func convert(_ value: Any, in context: PrettyRecordKit.ConversionContext) -> PrettyRecordKit.JSONValue?
+  #endif
+}
+public struct FoundationScalarConverter : PrettyRecordKit.RecordConverting {
+  public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func convert(_ value: Any, in context: PrettyRecordKit.ConversionContext) -> PrettyRecordKit.JSONValue?
+  #endif
+}
+public struct FoundationJSONRenderer : PrettyRecordKit.JSONRendering {
+  public init()
+  public func render(_ value: PrettyRecordKit.JSONValue, options: PrettyRecordKit.PrettyRecord.Options) -> Swift.String
+}
+extension PrettyRecordKit.PrettyRecord.DateEncoding : Swift.Equatable {}
+extension PrettyRecordKit.PrettyRecord.DateEncoding : Swift.Hashable {}
+extension PrettyRecordKit.PrettyRecord.DataEncoding : Swift.Equatable {}
+extension PrettyRecordKit.PrettyRecord.DataEncoding : Swift.Hashable {}
