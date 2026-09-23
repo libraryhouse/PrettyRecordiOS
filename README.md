@@ -7,16 +7,16 @@ Closed-source distribution of **PrettyRecord** — one clean JSON string for any
 In Xcode: **File → Add Package Dependencies…** and enter:
 
 ```
-https://github.com/libraryhouse/PrettyRecordKit.git
+https://github.com/libraryhouse/PrettyRecordiOS.git
 ```
 
 Or in `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/libraryhouse/PrettyRecordKit.git", from: "1.0.0")
+.package(url: "https://github.com/libraryhouse/PrettyRecordiOS.git", from: "1.0.0")
 ```
 
-Then:
+Then (the module name is `PrettyRecordKit`, even though the repo is `PrettyRecordiOS`):
 
 ```swift
 import PrettyRecordKit
